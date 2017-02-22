@@ -1,0 +1,35 @@
+
+# Git will ignore these files/folders and not track any changes made to them.
+# Most of these are files that the IDE generates when building the app or for user-specific details.
+
+
+# Common
+.DS_Store
+Thumbs.db
+
+
+# Eclipse
+.settings/
+assets/
+bin/
+gen/
+proguard/
+.classpath
+.project
+
+
+# Android Studio
+.gradle/
+.idea/
+#build/
+/app/build/
+/build/
+captures/
+local.properties
+*.iml
+*.apk
+
+
+# NDK/JNI Output Directories
+libs/
+obj/
